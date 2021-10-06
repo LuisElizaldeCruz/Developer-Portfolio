@@ -254,6 +254,11 @@ nav {
     padding: 0.5rem;
     color: var(--primary-color);
   }
+
+#name:focus, #email:focus, #message:focus{
+    background-color:rgb(216, 216, 216); /*!pendiente*/
+}
+
   .submit-btn {
     width: 100%;
     padding: 10px;
