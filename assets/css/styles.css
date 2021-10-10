@@ -38,7 +38,7 @@ a {
   color: var(--primary-color);
 }
 
-a:hover {
+a>.nav-link:hover {
   color: var(--secondary-color);
 }
 
@@ -90,6 +90,14 @@ nav {
     display: none;
   }
 
+  .burger-menu:hover{
+    color: purple;
+  }
+
+  .name:hover{
+    color: purple;
+  }
+
   .hero {
     display: flex;
     align-items: center;
@@ -113,6 +121,10 @@ nav {
   
   .bio h1 {
     margin-bottom: var(--bottom-margin);
+  }
+
+  .bio-title{
+    text-align: center;
   }
   
   .bio p {
@@ -153,6 +165,9 @@ nav {
   .icon {
     width: 11.875rem;
     height: 11.25rem;
+  }
+  .icon:hover{
+    background-color: #8b8eaf;
   }
 
   .icon-card {
@@ -209,6 +224,17 @@ nav {
     box-shadow: 0 3px 10px var(--primary-shadow);
     padding: 20px;
     margin: 10px;
+  }
+
+  .project-link{
+    background-color: purple;
+    padding: 8px 10px;
+    border-radius: 5px;
+    color: white;
+  }
+
+  .project-link:hover{
+    background-color: #4756df;
   }
 
   .contact {
@@ -354,6 +380,8 @@ nav {
         margin-top: -7rem;
         width: 20.5rem;
       }
+
+      
 
       .more-about {
         margin-top: 2rem;
