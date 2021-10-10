@@ -168,6 +168,10 @@ nav {
   }
   .icon:hover{
     background-color: #8b8eaf;
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2); /*!se expande la tarjeta */
+    transition:all .2s ease-in-out;
+
   }
 
   .icon-card {
@@ -314,6 +318,11 @@ nav {
   .socicon {
     width: 2rem;
     height: 2rem;
+  }
+
+  .socicon:hover{
+    -webkit-transform:scale(1.2);
+    transform:scale(1.5); /*!se expande la tarjeta */
   }
 
   footer {
