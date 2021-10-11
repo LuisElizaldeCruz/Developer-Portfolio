@@ -322,7 +322,7 @@ nav {
 
   .socicon:hover{
     -webkit-transform:scale(1.2);
-    transform:scale(1.5); /*!se expande la tarjeta */
+    transform:scale(1.5); /*!se expande el icono */
   }
 
   footer {
