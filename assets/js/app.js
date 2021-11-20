@@ -18,3 +18,23 @@ navLink.forEach((link) =>
     ul.classList.remove("show");
   })
 );
+
+/*
+let boton = document.querySelector(".up-arrow");
+ 
+let action = function(){
+  window.scroll({
+    top: 0,
+    left: 0,
+    behavior: 'smooth'
+  });
+}
+boton.addEventListener("click", action);
+*/
+let subir = document.querySelector(".up-arrow").addEventListener("click", ()=>{
+  window.scroll({
+    top: 0,
+    left: 0,
+    behavior: 'smooth'
+  });
+});
